@@ -73,6 +73,11 @@ body {
   background-color: #3c3e43;
 }
 
+.btn.btn-purple {
+  color: white;
+  background-color: #5765f2;
+}
+
 .btn.btn-small {
   font-size: 14px;
   padding: 10px 15px;
@@ -177,6 +182,34 @@ header .topbar {
   padding-top: 20px;
 }
 
+.bkgd-gray-big .container{
+  padding-top: 100px;
+}
+
+.bkgd-gray-big p{
+  margin-top: 20px;
+}
+
+.big-pic-box img{
+  height: 800px;
+}
+
+.cta-star{
+  width: 600px;
+  height: 100px;
+  background-image:url(../img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.cta{
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+
 /* Background */
 .bkgd-white {
   height: 700px;
@@ -192,17 +225,16 @@ header .topbar {
 }
 
 .bkgd-gray {
-  height: 800px;
+  height: 700px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.1)
 }
 
 
 .bkgd-gray-big {
-  height: 1600px;
+  height: 1300px;
   width: 100%;
-  background-color: black;
-  opacity: 0.1;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .bkgd-pattern-revers {
