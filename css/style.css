@@ -29,6 +29,10 @@ body {
   width: 20%;
 }
 
+.col.w-25 {
+  width: 25%;
+}
+
 .col.w-30 {
   width: 30%;
 }
@@ -247,6 +251,55 @@ header .topbar {
 
 /* Footer */
 footer {
+  color: white;
   height: 600px;
   background-color: #23272a;
+}
+
+footer h3{
+  color: #5765f2;
+  font-size: 32px;
+  text-align: left;
+}
+
+footer .lingua{
+  padding-top: 20px;
+}
+
+footer .bandiera{
+  height: 15px;
+  vertical-align: middle;
+}
+
+footer .container{
+  padding-top: 100px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #5765f2;
+}
+
+footer .w-80{
+  padding-left: 10%;
+}
+
+footer .first{
+  color: #5765f2;
+}
+
+footer li{
+  font-weight: bold;
+  font-size: 12px;
+  list-style: none;
+  line-height: 30px;
+}
+
+footer .btn{
+  position: absolute;
+  right: 0;
+}
+
+.container-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+  position: relative;
 }
