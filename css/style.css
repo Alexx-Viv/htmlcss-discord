@@ -29,12 +29,20 @@ body {
   width: 20%;
 }
 
-.col.w-50 {
+.w-50 {
   width: 50%;
 }
 
 .col.w-60 {
   width: 60%;
+}
+
+#jumbotron .box{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -60%);
+  height: 300px;
 }
 
 .text-center {
@@ -55,9 +63,24 @@ body {
   background-color: white;
 }
 
-.btn.btn-small{
-  font-size: 14px;
+.btn.btn-black{
+  color: white;
+  background-color: black;
+}
+
+.btn.btn-big{
+  font-size: 18px;
   padding: 10px 15px;
+  margin: 0 10px;
+}
+
+h1{
+  font-size: 52px;
+  margin-bottom: 30px;
+}
+
+p{
+  line-height: 30px;
 }
 
 /* Header */
@@ -101,5 +124,9 @@ header .topbar{
   background-size: cover;
   background-position: center;
   height: 500px;
+  position: relative;
 }
 
+#jumbotron .p{
+  margin-bottom: 30px;
+}
