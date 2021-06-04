@@ -1,6 +1,105 @@
-/* Reset */
-*{
-  box-sizing: border-box;
-  padding: 0;
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Utils */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col {
+  float: left;
+}
+
+.col.w-20 {
+  width: 20%;
+}
+
+.col.w-50 {
+  width: 50%;
+}
+
+.col.w-60 {
+  width: 60%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.btn{
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.btn.btn-white{
+  color: black;
+  background-color: white;
+}
+
+.btn.btn-small{
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+/* Header */
+
+header {
+  color: white;
+  background-color: #255ee9;
+}
+
+header .topbar{
+  height: 80px;
+  line-height: 80px;
+}
+
+#logo{
+  vertical-align: middle;
+}
+
+.topbar .top-menu, 
+.topbar .top-menu li{
+  font-size: 14px;
+  display: inline-block;
+}
+
+.topbar .top-menu li{
+  margin: 0 20px;
+}
+
+.topbar .top-menu a{ 
+  color: white;
+  text-decoration: none;
+}
+
+.topbar .top-menu a:hover{
+  text-decoration: underline;
+}
+
+/* Jumbotron */
+#jumbotron{
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
