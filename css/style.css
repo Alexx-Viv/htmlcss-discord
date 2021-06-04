@@ -29,10 +29,6 @@ body {
   width: 20%;
 }
 
-.w-50 {
-  width: 50%;
-}
-
 .col.w-60 {
   width: 60%;
 }
@@ -43,6 +39,7 @@ body {
   top: 50%;
   transform: translate(-50%, -60%);
   height: 300px;
+  max-width: 720px;
 }
 
 .text-center {
@@ -65,7 +62,7 @@ body {
 
 .btn.btn-black{
   color: white;
-  background-color: black;
+  background-color: #3C3E43
 }
 
 .btn.btn-small{
@@ -134,4 +131,59 @@ header .topbar{
 
 #jumbotron .p{
   margin-bottom: 30px;
+}
+
+/* Main */
+
+.img-box{
+  background-color: black;
+  opacity: 0.2;
+  height: 200px;
+}
+
+.p-box{
+  background-color: black;
+  opacity: 0.2;
+  height: 200px;
+}
+
+.bkgd-white{
+  height: 800px;
+  width: 100%;
+  background-color: white;
+}
+
+.bkgd-pattern{
+  height: 200px;
+  width: 100%;
+  background-image: url(../img/wave.svg);
+  opacity: 0.1;
+}
+
+.bkgd-gray{
+  height: 800px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.1;
+}
+
+.bkgd-gray-big{
+  height: 1600px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.1;
+}
+
+.bkgd-pattern-revers{
+  height: 200px;
+  width: 100%;
+  background-image: url(../img/wave.svg);
+  transform: scale(-1, -1);
+  opacity: 0.1;
+}
+
+/* Footer */
+footer{
+  height: 600px;
+  background-color: #23272A;
 }
